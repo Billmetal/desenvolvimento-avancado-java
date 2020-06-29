@@ -1,0 +1,29 @@
+package br.com.digital.innovation.one.avancado.paradigma_funcional;
+
+import java.util.Arrays;
+
+public class ComposicaoDeFuncoes {
+
+	public static void main(String[] args) {
+		
+		int[] valores = {1,2,3,4};
+		
+		// funcional
+		Arrays.stream(valores)
+				.filter(numero -> numero % 2 == 0)
+				.map(numero -> numero * 2)
+				.forEach(System.out::println);
+		
+		// imperativo
+		for(int i = 0; i < valores.length; i++) {
+			int valor = valores[i];
+			if(valor % 2 == 0) {
+				valor *= 2;
+				if(valor != 0) {
+					System.out.println(valor);
+				}
+			}
+		}
+	}
+
+}
