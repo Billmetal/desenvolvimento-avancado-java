@@ -30,5 +30,34 @@ public class ExercicioFinal {
 	 *( ) Funcional
 	 *( ) Recursividade
 	 *( ) Imperativo *****/
+	
+	/*4. Qual é a sintaxe base de uma lambda ?
+	 *( ) Tipo nomeVariavel = parametro -> lógica
+	 *( ) Tipo nomeVariavel = valor;
+	 *( ) TipoAbstrato nomeVariavel = valor
+	 *(X) InterfaceFuncional nomeVariavel = parametro -> lógica
+	 *( ) TipoEnum nomeVariavel = parametro -> lógica *****/
+	
+	/*5. Quando devemos utilizar chaves em uma lambda ?
+	 *( ) Quando o mesmo possui apenas uma instrução
+	 *( ) Quando utilizamos a referencia do método
+	 *( ) Quando utilizamos a interface Runnable
+	 *(X) Quando o mesmo possui mais de uma instrução
+	 *( ) Quando o mesmo não possui nenhuma instrução *****/
+	
+	/*6. Qual das alternativas a seguir é uma declaração de um lambda .
+	 *( ) Funcao a = "2";
+	 *( ) Funcao a => "2";
+	 *( ) Funcao a = a => "2";
+	 *( ) Funcao a -> "2";
+	 *(X) Funcao a = valor -> "2"; *****/
+	
+	/*7. Antes do Java 8 , qual era a estratégia utilizada para implementação
+	 * 	de interface em uma classe específica .
+	 *(X) Classe Anônima
+	 *( ) Declaração de outra interface
+	 *( ) Enum
+	 *( ) Classe Abstrata
+	 *( ) Encapsulamento *****/
 
 }
