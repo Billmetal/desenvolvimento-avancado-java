@@ -59,5 +59,30 @@ public class ExercicioFinal {
 	 *( ) Enum
 	 *( ) Classe Abstrata
 	 *( ) Encapsulamento *****/
+	
+	/*8. Qual o problema que pode ocorrer ao utilizar recursividade ?
+	 *( ) Deadlock
+	 *( ) Starvation
+	 *( ) Concorrência
+	 *(X) Estouro de pilha (StackOverFlow)
+	 *( ) Erro de compilação *****/
+	
+	/*9. É uma técnica de otimização que consiste no cache do resultado 
+	 * 	de uma função , baseada nos parâmetros de entrada, a partir desta
+	 * 	afirmação, indique o item correto. 
+	 *(X) Memorization
+	 *( ) Tail Call
+	 *( ) Lambda
+	 *( ) Paradigma Imperativo
+	 *( ) Imutabilidade *****/
+	
+	/*10. É uma recursão onde não há nenhuma linha de código após a chamada
+	 *  do próprio método e, sendo assim, não há nenhum tipo de processamento
+	 *  a ser feito após a chamada recursiva, a partir desta afirmação, indique o item correto. 
+	 *( ) Memorization
+	 *(X) Tail Call
+	 *( ) Lambda
+	 *( ) Paradigma Imperativo
+	 *( ) Imutabilidade *****/
 
 }
